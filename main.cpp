@@ -17,9 +17,9 @@ bool has_cycle(const std::vector<std::vector<bool>>& graph);
 int main() {
   std::vector<std::string> filelist = {
     "input.txt",
-    "cyclic.txt",
+    //"cyclic.txt",
     "input2.txt",
-    "input404.txt",
+    //"input404.txt",
   };
   for(auto& filename : filelist){
     std::vector<std::vector<bool>> graph;
